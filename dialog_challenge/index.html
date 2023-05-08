@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    
+    <title>Dialog Challenge</title>
+</head>
+<body>
+
+    <dialog class="dialog" id="dialog">
+        <h1 class="title">Attention</h1>
+        <p class="text">This dialog will not show again if you check the checkbox and close.</p>
+        <div class="dialog-bottom">
+            <div class="ckbox-wrapper">
+                <input id="checkbox" name="doNotShow" type="checkbox" />
+                <label for="doNotShow">Don't show this message again</label>
+            </div>
+            <button id="close-btn">Close</button>
+        </div>
+    </dialog>
+    
+</body>
+</html>
