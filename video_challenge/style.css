@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-controls {
+    background-color: black;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 5px 5px;
+    padding: 5px 10px;
+    width: 150px;
+    border-radius: 200px;
+    background-color: rgb(5, 158, 82);
+    color: white;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+button:active {
+    transform:translateY(5px);
+}
+
+#mute-btn {
+    width: 100px;
+    height: 42px;
+    padding: 5px 10px;
+    border-radius: 200px;
+}
+
+#player {
+    margin-bottom: 20px;
+    cursor: default;
+    pointer-events: none;
+    border:3px solid rgb(5, 158, 82);
+    border-radius: 10px;
+}
+
+.duration-text {
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="main.js" defer></script>
+    
+    <title>Video Player</title>
+</head>
+<body>
+    <div class="container">
+        <div id="player"></div>
+        <div class="btn-controls">
+            <button id="play-btn" onclick="onPlayBtnClicked()"><i data-feather="play"></i></button>
+            <button id="stop-btn" onclick="onStopBtnClicked()"><i data-feather="square"></i></button>
+            <button id="mute-btn" onclick="onMuteBtnClicked()">Mute</button>
+        </div>
+        <h1 class="duration-text"></h1>
+    </div>
+    <script src="https://www.youtube.com/iframe_api" defer></script>
+</body>
+</html>
